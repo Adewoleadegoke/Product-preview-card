@@ -15,16 +15,16 @@ h1 {
 p {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 button {
     width: 100%;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     border: none;
     background: hsl(158, 36%, 37%);
     color: white;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     display: flex;
@@ -36,17 +36,17 @@ button {
     background: white;
     border-radius: 10px;
     overlow: hidden;
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 .text-container {
     padding: 20px 30px 25px;
     background: white;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 .item-desc {
     line-height: 1.6;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .desktop-img {
     display: none;
@@ -54,14 +54,14 @@ button {
 .mobile-img {
     max-inline-size: 100%;
     object-fit: contain;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625rem 0.625rem 0 0;
 }
 /* Price Container */
 .price-container {
     display: flex;
     align-items: center;
     margin-top: 0;
-    column-gap: 20px;
+    column-gap: 1.25rem;
 }
 .current-price {
     font-family: 'Fraunces', serif;
@@ -70,7 +70,7 @@ button {
     font-weight: 700;
 }
 .slashed-price {
-    font-size: 12px;
+    font-size: 0.625rem;
 }
 
 @media (min-width: 1000px){
@@ -82,7 +82,7 @@ button {
     .desktop-img {
         display: flex;
         max-inline-size: 100%;
-        border-radius: 10px 0 0 10px;
+        border-radius: 0.625rem 0 0 0.625rem;
         height: 100%;
         object-fit: cover;
     }
@@ -91,7 +91,7 @@ button {
     }
     .text-container {
         min-width: 100%;
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 0.625rem 0.625rem 0;
     }
     
 }
